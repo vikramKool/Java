@@ -1,0 +1,14 @@
+JAVA Naming Conventions:-
+-------------------------
+In Java for good maintenance and readability  of code.
+
+Java uses CAMEL CASE as a practice for writing names of:
+1. Variables
+2. Methods
+3. Classess
+4. Packages
+5. Constants
+
+Camel case in Java Programming:
+1. 1st letter should be CAPITALS, followed by the lower case. Example:- VikramKadam, FedEx etx.,
+

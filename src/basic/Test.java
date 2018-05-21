@@ -9,8 +9,7 @@ public class Test
     {
         Student s1 = new Student();
 
-        // Getting hold of Class object created
-        // by JVM.
+        // Getting hold of Class object created by JVM.
         Class c1 = s1.getClass();
 
         // Printing type of object using c1.

@@ -1,0 +1,123 @@
+Language Fundamentals
+---------------------
+
+1. Identifiers
+2. Reserved Words
+3. Data Types
+4. Literals
+5. Arrays
+6. Types of Variables
+7. var-arg methods
+8. main Methods
+9. command line arguments
+10. Java Coding standards
+
+-----------------------------------------------
+
+1. Identifiers
+
+ex:- we identify person by name
+*Class Name, Method name, Variable name, label name
+*A name in java program is called IDENTIFIER which can be used for identification purpose
+
+Example:-
+-----------------------------------------
+class Test
+{
+public static void main(String...args)
+{
+  int x=10;
+}
+}
+-----------------------------------------
+How many no. of identifier's?
+
+1. Test
+2. main
+3. String
+4. args
+5. x
+
+------------------------------------------
+
+suppose you have a kid and you have to naem your kid
+usually, Father sir name, god name etc.,
+but we cant keep kid name as Dog, cat.,
+
+Rules for defining java identifiers :-
+-----------------------------------
+
+A. The only allowed character in java identifiers are
+   1. a to z
+   2. A to Z
+   3. 0 to 9
+   4. $(Dollar symbol)
+   5. _ (Underscore)
+
+   if you using any other character we will get compile time error
+   example:-
+            total_number
+            total#symbol
+
+B. total123 is valid and
+   123total is invalid
+   Identifier cant start with digits
+
+C. Java Identifiers are case sensitive ofcourse java language itself is treated  as case-sensitive programming language.
+   example:-
+            class Test
+            {
+                int number=10;  // we can differentiate wrt to case
+                int Number=20;
+                int NUMBER=30;
+            }
+D. There is no length limit for java identifiers but, it is not recommended to take too lengthy identifiers.
+    In Java Identifiers max.Characters can be allowed is "THERE IS NO LENGTH LIMIT "
+
+E. we cant use revered words as identifiers
+    example:-
+    int x=10; -- valid
+    int if=20; -- Invalid , coz "if" is reserved key word
+
+F. All pre-defined Java class names and Interfaces names we can use as identifiers
+    example:-
+    class Test
+    {
+    public static void main(String[] args)
+    {
+        int String=888;
+        System.out.println(String); // Valid string is a class
+
+        int Runnable=999;
+        System.out.println(Runnable);// Valid Runnable is a interface
+    }
+    }
+
+ even though it is valid but it is not a good programming practice because it reduces readability and creates confusion.
+
+ Q1. Which of the following are valid java identifiers?
+     total_number =y
+     total#   = n
+     123total = n
+     ca$h     = y
+     _$_$_$_$_ = y
+     ass@hands = n
+     Java2Share = y
+     Integers = y
+     Int = y
+     int =n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

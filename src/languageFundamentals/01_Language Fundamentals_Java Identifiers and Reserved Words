@@ -1,0 +1,302 @@
+Language Fundamentals
+---------------------
+
+1. Identifiers
+2. Reserved Words
+3. Data Types
+4. Literals
+5. Arrays
+6. Types of Variables
+7. var-arg methods
+8. main Methods
+9. command line arguments
+10. Java Coding standards
+
+-----------------------------------------------
+
+1. Identifiers
+
+ex:- we identify person by name
+*Class Name, Method name, Variable name, label name
+*A name in java program is called IDENTIFIER which can be used for identification purpose
+
+Example:-
+-----------------------------------------
+class Test
+{
+public static void main(String...args)
+{
+  int x=10;
+}
+}
+-----------------------------------------
+How many no. of identifier's?
+
+1. Test
+2. main
+3. String
+4. args
+5. x
+
+------------------------------------------
+
+suppose you have a kid and you have to naem your kid
+usually, Father sir name, god name etc.,
+but we cant keep kid name as Dog, cat.,
+
+Rules for defining java identifiers :-
+-----------------------------------
+
+A. The only allowed character in java identifiers are
+   1. a to z
+   2. A to Z
+   3. 0 to 9
+   4. $(Dollar symbol)
+   5. _ (Underscore)
+
+   if you using any other character we will get compile time error
+   example:-
+            total_number
+            total#symbol
+
+B. total123 is valid and
+   123total is invalid
+   Identifier cant start with digits
+
+C. Java Identifiers are case sensitive ofcourse java language itself is treated  as case-sensitive programming language.
+   example:-
+            class Test
+            {
+                int number=10;  // we can differentiate wrt to case
+                int Number=20;
+                int NUMBER=30;
+            }
+D. There is no length limit for java identifiers but, it is not recommended to take too lengthy identifiers.
+    In Java Identifiers max.Characters can be allowed is "THERE IS NO LENGTH LIMIT "
+
+E. we cant use revered words as identifiers
+    example:-
+    int x=10; -- valid
+    int if=20; -- Invalid , coz "if" is reserved key word
+
+F. All pre-defined Java class names and Interfaces names we can use as identifiers
+    example:-
+    class Test
+    {
+    public static void main(String[] args)
+    {
+        int String=888;
+        System.out.println(String); // Valid string is a class
+
+        int Runnable=999;
+        System.out.println(Runnable);// Valid Runnable is a interface
+    }
+    }
+
+ even though it is valid but it is not a good programming practice because it reduces readability and creates confusion.
+
+ Q1. Which of the following are valid java identifiers?
+     total_number =y
+     total#   = n
+     123total = n
+     ca$h     = y
+     _$_$_$_$_ = y
+     ass@hands = n
+     Java2Share = y
+     Integers = y
+     Int = y
+     int =n
+
+ -------------------------------
+
+ Reserved Words
+
+ Cat is a animal
+ Dog is a animal
+ apple is a fruit
+
+In Java, some words are reserved to represent some meaning or functionality such type of words are called Reserved words.
+
+Reserved Words(53) divided into 2 types:-
+
+    1. Reserved Keywords (50)
+        1.1 Used Keywords (48)
+        1.2 Unused keywords (2) i.e., goto and const
+
+    2. Reserved Literals(3) i.e., true, false and null
+
+for exam sake, all 53 reserved words should be known
+
+Keywords for data types(8):-
+-----------------------
+1. Byte
+2. Short
+3. Int
+4. Long
+5. Float
+6. Double
+7. Boolean
+8. Char
+
+Keywords for flow control(11):-
+-------------------------
+1. if
+2. else
+3. switch
+4. case
+5. default
+6. while
+7. do
+8. for
+9. break
+10. continue
+11. return
+
+Keywords for modifiers(11):-
+----------------------
+1. Public
+2. Private
+3. Protected
+4. Static
+5. Final
+6. Abstract
+7. Synchronized
+8. Native
+9. Strictfp(1.2 v)
+10. Transient
+11. Volatile
+
+Keywords for Exception Handling(6):-
+-------------------------------
+1. Try
+2. Catch
+3. Finally
+4. Throw
+5. Throws
+6. Assert(1.4 v)
+
+Class Related Keywords(6):-
+-----------------------
+1. Class
+2. Interface
+3. Extends
+4. Implements
+5. Package
+6. Import
+
+Object Related Keywords(4):-
+-----------------------
+1. new
+2. instanceOf
+3. super
+4. This
+
+void return type Keyword - In Java, return type is mandatory, if a method won't return anything then we have to declear that method with void return type.
+                           In C, return type is optional and default return type is int.
+
+Un-Used Keywords:-
+----------------
+1. goto :- Usage of goto created several problems in old lanagauages and hence SUN people banned this keyword in java.
+2. const :- Use Final instead of Const
+ Note:- Goto and Const are un-used keywords and if we are trying to use we will get compile time error(CTE)
+
+Reserved Literals:-
+------------------
+1. true and false are value for boolean data type
+2. null is default value for object reference
+
+enum (1.5 V) Keywords:-
+---------------------
+We can use enum to define a group of named constants
+example:-
+
+enum month
+{
+    jan, feb, mar, ..... ,dec
+}
+-------------
+enum bear
+{
+   kf, ko, rc, fo
+}
+--------------------
+
+Conclusion
+-----------
+1. All 53 Reserved Words in java contains only Lower-case alphabet's symbols
+2. In Java, we have only "new" and there is no delete keyword in java because distruction of useless object is the responsible of garbage collector.
+3. The following are new keywords in java:
+    Strictfp(1.2 v)
+    assert (1.4 v)
+    enum( 1.5 v)
+4.Valid one
+    strictfp but not strictfp
+    instanceof but not instanceOf
+    synchronised but not synchronize
+    extends but not extend
+    implements but not implement
+    import but not imports
+    const but not constant
+
+OCJP question
+-------------
+1. which of the following list contains only java reserved keyword
+     new,delete
+     goto,constant
+     break,continue,return,exit
+     final,finally,finalize
+     throws,throws,thrown
+     notify,notifyAll
+     implements,extends,imports
+     sizeof,instanceof
+     instanceOf,strictFp
+     byte,short,Int
+     none of the above        ----- Correct answer
+
+2. Which of the following are java reserved words
+    public  ------- Correct
+    static  ------- Correct
+    void    ------- Correct
+    main
+    String
+    args
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

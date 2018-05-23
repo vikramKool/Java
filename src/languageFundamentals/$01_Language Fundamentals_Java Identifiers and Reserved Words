@@ -40,7 +40,7 @@ How many no. of identifier's?
 
 ------------------------------------------
 
-suppose you have a kid and you have to naem your kid
+suppose you have a kid and you have to name your kid
 usually, Father sir name, god name etc.,
 but we cant keep kid name as Dog, cat.,
 
@@ -129,14 +129,14 @@ for exam sake, all 53 reserved words should be known
 
 Keywords for data types(8):-
 -----------------------
-1. Byte
-2. Short
-3. Int
-4. Long
-5. Float
-6. Double
-7. Boolean
-8. Char
+1. byte
+2. short
+3. int
+4. long
+5. float
+6. double
+7. boolean
+8. char
 
 Keywords for flow control(11):-
 -------------------------
@@ -154,42 +154,42 @@ Keywords for flow control(11):-
 
 Keywords for modifiers(11):-
 ----------------------
-1. Public
-2. Private
-3. Protected
-4. Static
-5. Final
-6. Abstract
-7. Synchronized
-8. Native
-9. Strictfp(1.2 v)
-10. Transient
-11. Volatile
+1. public
+2. private
+3. protected
+4. static
+5. final
+6. abstract
+7. synchronized
+8. native
+9. strictfp(1.2 v)
+10. transient
+11. volatile
 
 Keywords for Exception Handling(6):-
 -------------------------------
-1. Try
-2. Catch
-3. Finally
-4. Throw
-5. Throws
-6. Assert(1.4 v)
+1. try
+2. catch
+3. finally
+4. throw
+5. throws
+6. assert(1.4 v)
 
 Class Related Keywords(6):-
 -----------------------
-1. Class
-2. Interface
-3. Extends
-4. Implements
-5. Package
-6. Import
+1. class
+2. interface
+3. extends
+4. implements
+5. package
+6. import
 
 Object Related Keywords(4):-
 -----------------------
 1. new
 2. instanceOf
 3. super
-4. This
+4. this
 
 void return type Keyword - In Java, return type is mandatory, if a method won't return anything then we have to declear that method with void return type.
                            In C, return type is optional and default return type is int.

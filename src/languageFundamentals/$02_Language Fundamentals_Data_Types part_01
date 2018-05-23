@@ -1,0 +1,154 @@
+Language Fundamentals -- Data Types-01
+--------------------------------------
+
+DATA TYPES:-
+----------
+
+1. In Java, every variable and ever expression has some type.
+2. Each has every data type is clearly defined.
+3. ever assignment should be checked by compiler for type compatibility.
+
+Because of above reason, we can conclude JAVA language is "STRONGLY TYPED PROGRAMMING LANGUAGE".
+-----------------------------------------------------------------------------------------------------
+Is Java is pure OOP language?
+----------------------------
+In school days, Parents are always worried about marks by asking progress card.
+we compare with other students, by telling I got 2 marks extra compared to Ravi.
+Ravi got 0 out of 100 and I got 2 out of 100
+
+If relative compare - i got good marks
+if no-relative compare - i got very less marks not even pass
+like wise, if we compare with other old language, Java is pure OOP language.
+
+In interview room this question becomes ambient question
+
+Recommended Answer:-
+------------------
+1. Java is not considered as Pure OOP langauage, because serveral OOP feature
+   are not satisfied by JAVA(like Operator overloading, Multiple inheritance., etc)
+2. More over we are depending on primitive data types which are non-objects.
+
+-------------------------------------------------------------------------------------------------------
+
+Primitive Data Type(8 Types)
+-------------------
+    1.1 Numeric Data  Type
+        1.1.1 Integral Data Type
+                a. byte
+                b. short
+                c. int
+                d. long
+        1.1.2 Floating point data type
+                a. float
+                b. double
+
+    1.2 Non-Numeric Data type
+                a. char
+                b. boolean
+--------------------------------------
+*. Except boolean and char remaining data types are considered as "SIGNED DATA TYPES". because we can represent both positive and
+negative numbers
+----------------------------------------------------------------------------------------------------------------------------------
+
+BYTE:-
+----
+size = 1 Byte (8 bit)
+MSB(Most Significant Value) -- 1st bit represent --->> Only represent "SIGN BIT(+/-)"
+Max_Value = 127
+Min_Value = -128
+Range = -128 to 127
+
+1    2    3    4    5    6    7    8  ----> 8bit
++-   1    1    1    1    1    1    1
+    2^6  2^5  2^4  2^3  2^2  2^1  2^0
+    64 + 32 + 16 + 8  +  4 +  2 +  1  === 127
+
+The MSB act as SIGN Bit, 0 means Postive Number and 1 means negative numbers
+Positive numbers will be represented directly in the memory where as negative number will be represented in 2 complements form.
+
+Check "class $03_Data_Types_Byte" for compile Time errors
+
+Application of Byte:-
+-------------------
+
+Byte is the best choice type, if we want to handle the data in term of streams either from the files or from the
+network(File supported form or Network supported form is the byte).
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+SHORT:-
+-----
+This is the most rarely used data type in Java.
+size = 2 Bytes (16 bit)
+Range = -2^15 to 2^15-1 (-32768 to 32767)
+
+Check "class $04_Data_Types_Short" for compile Time errors.
+
+Application of Short:-
+-------------------
+
+Short is the Data type is best suitable like 16 bit processers like 8085. but this processer are completely out-dated and hence,
+corresponding short data type is also a out-dated data type.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+INT:-
+---
+
+The most commonly used data type is "int".
+size = 4 Bytes (32 bit)
+Range = -2^31 to 2^31-1 (-2147483648 to 2147483647)
+
+
+Check "class $05_Data_Types_Int" for compile Time errors.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

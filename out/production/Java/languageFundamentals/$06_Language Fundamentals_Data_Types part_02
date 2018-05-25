@@ -119,13 +119,7 @@ char        2 bytes            0 to 65535                   Character           
 Note:-
 ----
 
-1.Null is default value for object reference and we cant apply for primitives.
-2.If we are trying to use for primitive then we will get compile time error.
-    Example:-
-    char ch=null; CTE:- Incompatible types. Found: 'null', required: 'char'
-
--------------------------------------------------------------------------------------------------
-
+1.
 
 
 

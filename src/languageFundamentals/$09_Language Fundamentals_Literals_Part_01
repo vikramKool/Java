@@ -1,0 +1,54 @@
+Language Fundamentals -- Literals Part-01
+----------------------------------------
+
+
+LITERAL:-
+-------
+1. Any constant value which can be assigned to the variable is called literal.
+    Example:-
+                int x = 10 ;
+
+                where,
+                        int = data type/Keyword
+                        x = name of variable/identifiers
+                        10 = Constant value/literal
+
+
+Integral Literals:-
+-----------------
+1. For integral data types(byte,short,int,long), we can specify literal value in the following ways:
+    a. Decimal literal/Form(base10)
+       allowed digits are 0 - 9
+            Example:- int x=10;
+
+    b. Octal literal/Form(base8)
+       allowed digits are 0 - 7
+       literal value should be prefixed with "0"
+            Example:- int x=010;
+
+    b. Hexa-decimal literal/Form(base16)
+       allowed digits are 0 - 9 and a - f
+       literal value should be prefixed with "0x" or "0X"
+             Example:- int x=0X10;
+
+             Note:- For  extra digits(a - f), we can use both lower case and upper case characters. This is one of very few areas
+                    where java is not case-sensitive
+
+    These are only possible ways to specify literal value for integral data types.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

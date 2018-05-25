@@ -46,13 +46,13 @@ Primitive Data Type(8 Types)
                 a. char
                 b. boolean
 --------------------------------------
-*. Except boolean and char remaining data types are considered as "SIGNED DATA TYPES". because we can represent both postive and
+*. Except boolean and char remaining data types are considered as "SIGNED DATA TYPES". because we can represent both positive and
 negative numbers
-------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 
 BYTE:-
 ----
-size = 1 Byte (8bit)
+size = 1 Byte (8 bit)
 MSB(Most Significant Value) -- 1st bit represent --->> Only represent "SIGN BIT(+/-)"
 Max_Value = 127
 Min_Value = -128
@@ -64,7 +64,46 @@ Range = -128 to 127
     64 + 32 + 16 + 8  +  4 +  2 +  1  === 127
 
 The MSB act as SIGN Bit, 0 means Postive Number and 1 means negative numbers
-Postive numbers will be represented directly in the memory where as negative number will be represented in 2 complements form.
+Positive numbers will be represented directly in the memory where as negative number will be represented in 2 complements form.
+
+Check "class $03_Data_Types_Byte" for compile Time errors
+
+Application of Byte:-
+-------------------
+
+Byte is the best choice type, if we want to handle the data in term of streams either from the files or from the
+network(File supported form or Network supported form is the byte).
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+SHORT:-
+-----
+This is the most rarely used data type in Java.
+size = 2 Bytes (16 bit)
+Range = -2^15 to 2^15-1 (-32768 to 32767)
+
+Check "class $04_Data_Types_Short" for compile Time errors.
+
+Application of Short:-
+-------------------
+
+Short is the Data type is best suitable like 16 bit processers like 8085. but this processer are completely out-dated and hence,
+corresponding short data type is also a out-dated data type.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+INT:-
+---
+
+The most commonly used data type is "int".
+size = 4 Bytes (32 bit)
+Range = -2^31 to 2^31-1 (-2147483648 to 2147483647)
+
+
+Check "class $05_Data_Types_Int" for compile Time errors.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 
 
 

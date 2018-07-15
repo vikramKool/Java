@@ -1,6 +1,6 @@
 package languageFundamentals;
 
-public class $03_Data_Types_Byte
+public class $0003_Data_Types_Byte
 {
     public static void main(String...args)
     {

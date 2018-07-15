@@ -1,6 +1,6 @@
 package languageFundamentals;
 
-public class $07_Data_Types_Boolean
+public class $0007_Data_Types_Boolean
 {
     public static void main(String...args)
     {

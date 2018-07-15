@@ -1,6 +1,6 @@
 package languageFundamentals;
 
-public class $04_Data_Types_Short
+public class $0004_Data_Types_Short
 {
     public static void main(String...args)
     {

@@ -1,6 +1,6 @@
 package languageFundamentals;
 
-public class $08_Data_Types_Char
+public class $0008_Data_Types_Char
 {
     public static void main(String...args)
     {

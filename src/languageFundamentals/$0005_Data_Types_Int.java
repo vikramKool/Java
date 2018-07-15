@@ -1,6 +1,6 @@
 package languageFundamentals;
 
-public class $05_Data_Types_Int
+public class $0005_Data_Types_Int
 {
     public static void main(String...args)
     {
